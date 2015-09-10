@@ -21,5 +21,8 @@ public class NumberTest {
         assertEquals(false, num.isEven(1));
         assertEquals(true, num.isEven(2));
         assertEquals(true, num.isEven(-4));
+        assertEquals(false, num.isEven(7));
+        assertEquals(true, num.isEven(268));
+        assertEquals(true, num.isEven(-406));
     }
 }
